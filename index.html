@@ -73,7 +73,7 @@
               document.getElementById("name").textContent=`Name:${userData.login || "Not available"}`;
               document.getElementById("bio").textContent=`bio:${userData.bio || "Not available"}`;
               document.getElementById("location").textContent=`location:${userData.location || "Not available"}`;
-              document.getElementById("repos").textContent=`repositories:${userData.repos || "Not available"}`;
+              document.getElementById("repos").textContent=`repositories:${userData.public_repos|| "Not available"}`;
               document.getElementById("profile-link").href=userData.html_url
               
               
